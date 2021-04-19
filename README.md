@@ -1073,11 +1073,8 @@ Here we are also encoding our categorical values into binary format so that our 
 Below we are using matplotlib for Plotting of Histogram. This is used for checking the frequency distribution of different values inside a column or feature. Each column is a different unique feature for our model. As we can see from the output there are 3 labels Yes, No and Maryville.We are plotting for FeatureA and FeatureB.
 
 
-![png](output_24_0.png)
 
-
-
-![png](output_25_0.png)
+![png](Plot/plot1.png) ![png](Plot/plot2.png)
 
 
 
@@ -1315,7 +1312,7 @@ Doing Box and whisker plot for Checking the availability of outliers in the code
 **detecting outlier**
 
 
-![png](output_33_1.png)
+![png](Plot/plot3.png)
 
 
 **certainly there are outliers**
@@ -1557,7 +1554,7 @@ Plotting Box plot for checking Outliers for other columns, As here we can see th
 Again checking for outliers, But now we are plotting scatter plot for this. Here we found 3 outliersin total dues. We again removed it by taking mean of the available values There are certainlyother ways too, but this works best for our problem.
 
 
-![png](output_51_0.png)
+![png](Plot/plot4.png)
 
 
 #### Removing Outlier:
@@ -1723,24 +1720,24 @@ Here we are removing the outlier by simply providing the threshold value. The va
 We are again plotting scatter plots to confirm that our outliers has been removed and as we cansee our values are good now. Below we are plotting a Scatter and violin plot. The violin plot simply tells the density about how much distributed values we have in our data.
 
 
-![png](output_56_0.png)
+![png](Plot/plot5.png)
 
 
-![png](output_57_1.png)
+![png](Plot/plot6.png)
 
 
 ## Scree plot:
 Below we are plotting the scree plot for **monthly dues** column to see how are distributed our values. It’s another way of visualization. We are using matplotlib library for scree plot.
 
 
-![png](output_59_0.png)
+![png](Plot/plot7.png)
 
 
 ## Bivariate plot:
 Below we are plotting a Bivariate plot between monthly dues and Months in union to see the difference between both the column values.
 
 
-![png](output_61_1.png)
+![png](Plot/plot8.png)
 
 
 ## Normalization
@@ -4071,7 +4068,7 @@ print(y_pred)
 
 #### Plot Confusion Matrix
 
-![png](output_98_0.png)
+![png](Plot/plot10.png)
 
 
 #### Printing the Accuracy Score
@@ -4164,7 +4161,7 @@ print(pred)
 #### Plot Confusion Matrix
 
 
-![png](output_108_0.png)
+![png](Plot/plot11.png)
 
 
 #### Printing the Accuracy Score
@@ -4243,7 +4240,7 @@ Now here we are running our support vector machine model and we got fairly good 
 
 #### Plot Confusion Matrix
 
-![png](output_116_0.png)
+![png](Plot/plot12.png)
 
 
 #### Printing the Accuracy Score 
@@ -4324,7 +4321,7 @@ Time to play with a random forest model. It’s an ensemble technique which util
 #### Plot Confusion Matrix
 
 
-![png](output_124_0.png)
+![png](Plot/plot13.png)
 
 
 #### Printing the Accuracy Score 
@@ -4746,7 +4743,7 @@ Now we trained a neural network to see how well our model is performing on a sim
 #### Plot Confusion Matrix
 
 
-![png](output_137_0.png)
+![png](Plot/plot14.png)
 
 
 #### Printing the Accuracy Score
